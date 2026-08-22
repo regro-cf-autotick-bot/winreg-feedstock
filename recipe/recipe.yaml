@@ -1,6 +1,6 @@
 context:
   name: winreg
-  version: "6.5.1"
+  version: "8.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/GiovanniDicanio/WinReg/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: a0f1e4d53013a068d271e114cb96014ae302e14d4701d872a405bb7f81acf1ab
+  sha256: 017c08afbc0723ed33333be6204915a4f7b84ef8ad9ab1174e723342b52cb180
 
 build:
   number: 0
